@@ -40,32 +40,62 @@
         <!--Blue View Controller-->
         <scene sceneID="Zib-Lo-Joc">
             <objects>
-                <viewController id="azZ-jr-HZG" customClass="BlueViewController" customModule="Lesson5" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Blue" id="azZ-jr-HZG" customClass="BlueViewController" customModule="Lesson5" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mP7-aP-OlR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usi-C8-Zvf">
+                                <rect key="frame" x="155" y="318.5" width="64" height="30"/>
+                                <state key="normal" title="Press Me">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="blueButtonPressed:" destination="azZ-jr-HZG" eventType="touchUpInside" id="CJc-1I-kAF"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.01950980283979864" green="0.64399025236047613" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="usi-C8-Zvf" firstAttribute="centerY" secondItem="mP7-aP-OlR" secondAttribute="centerY" id="BIJ-1d-1EP"/>
+                            <constraint firstItem="usi-C8-Zvf" firstAttribute="centerX" secondItem="mP7-aP-OlR" secondAttribute="centerX" id="hiO-t1-Bxn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="LaK-hO-G4V"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TFh-tq-qAR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="711" y="34"/>
+            <point key="canvasLocation" x="1324" y="34"/>
         </scene>
         <!--Yellow View Controller-->
         <scene sceneID="9g0-q8-zKi">
             <objects>
-                <viewController id="dcf-Tu-o2g" customClass="YellowViewController" customModule="Lesson5" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Yellow" id="dcf-Tu-o2g" customClass="YellowViewController" customModule="Lesson5" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5T1-pv-FdA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bEl-PB-Eim">
+                                <rect key="frame" x="155" y="318" width="64" height="30"/>
+                                <state key="normal" title="Press Me">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="yellowButtonPressed:" destination="dcf-Tu-o2g" eventType="touchUpInside" id="D55-VT-dF9"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.93591099564880498" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bEl-PB-Eim" firstAttribute="centerX" secondItem="5T1-pv-FdA" secondAttribute="centerX" id="2Bi-za-HwZ"/>
+                            <constraint firstItem="bEl-PB-Eim" firstAttribute="centerY" secondItem="5T1-pv-FdA" secondAttribute="centerY" id="Bbg-LR-wqz"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="jVG-Jk-UUb"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bgh-F8-XDi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1351" y="34"/>
+            <point key="canvasLocation" x="1970" y="34"/>
         </scene>
     </scenes>
 </document>
