@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2C505B292166D2260027C6E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C505B282166D2260027C6E8 /* AppDelegate.swift */; };
-		2C505B2B2166D2260027C6E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C505B2A2166D2260027C6E8 /* ViewController.swift */; };
 		2C505B2E2166D2260027C6E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C505B2C2166D2260027C6E8 /* Main.storyboard */; };
 		2C505B302166D2270027C6E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C505B2F2166D2270027C6E8 /* Assets.xcassets */; };
 		2C505B332166D2270027C6E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C505B312166D2270027C6E8 /* LaunchScreen.storyboard */; };
+		2C505B3B2166D59D0027C6E8 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C505B3A2166D59D0027C6E8 /* SwitchingViewController.swift */; };
+		2C505B3D2166D9D90027C6E8 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C505B3C2166D9D90027C6E8 /* BlueViewController.swift */; };
+		2C505B3F2166D9E70027C6E8 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C505B3E2166D9E70027C6E8 /* YellowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C505B252166D2260027C6E8 /* Lesson5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C505B282166D2260027C6E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C505B2A2166D2260027C6E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C505B2D2166D2260027C6E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C505B2F2166D2270027C6E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C505B322166D2270027C6E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C505B342166D2270027C6E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C505B3A2166D59D0027C6E8 /* SwitchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		2C505B3C2166D9D90027C6E8 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		2C505B3E2166D9E70027C6E8 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				2C505B282166D2260027C6E8 /* AppDelegate.swift */,
-				2C505B2A2166D2260027C6E8 /* ViewController.swift */,
+				2C505B3A2166D59D0027C6E8 /* SwitchingViewController.swift */,
+				2C505B3C2166D9D90027C6E8 /* BlueViewController.swift */,
+				2C505B3E2166D9E70027C6E8 /* YellowViewController.swift */,
 				2C505B2C2166D2260027C6E8 /* Main.storyboard */,
 				2C505B2F2166D2270027C6E8 /* Assets.xcassets */,
 				2C505B312166D2270027C6E8 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C505B2B2166D2260027C6E8 /* ViewController.swift in Sources */,
+				2C505B3F2166D9E70027C6E8 /* YellowViewController.swift in Sources */,
 				2C505B292166D2260027C6E8 /* AppDelegate.swift in Sources */,
+				2C505B3D2166D9D90027C6E8 /* BlueViewController.swift in Sources */,
+				2C505B3B2166D59D0027C6E8 /* SwitchingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
